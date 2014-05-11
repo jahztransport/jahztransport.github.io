@@ -119,19 +119,19 @@
 
     <section role="main" class="row">
       <div class="small-12 column">
-        <form>
+        <form data-abide>
           <fieldset>
             <div class="row">
               <div class="small-12 column">
-                <label>Origin</label>
-                <input id="origin" type="text" name="address" placeholder="Manila" onblur="calculateRoute()" />
+                <label>Origin <small>required</small></label>
+                <input id="origin" type="text" name="address" placeholder="Manila" required onblur="calculateRoute()" />
               </div>
             </div>
 
             <div class="row">
               <div class="small-12 column">
-                <label>Destination</label>
-                <input id="destination" type="text" name="address" placeholder="Pampanga" onblur="calculateRoute()"/>
+                <label>Destination <small>required</small></label>
+                <input id="destination" type="text" name="address" placeholder="Pampanga" required onblur="calculateRoute()"/>
               </div>
             </div>
 
@@ -142,13 +142,13 @@
               </div>
 
               <div class="small-3 columns">
-                <label>Fuel Efficiency (Km/L)</label>
-                <input id="fuel_efficiency" type="number" placeholder="0.0" onblur="calculateRoute()"/>
+                <label>Fuel Efficiency (Km/L) <small>required</small></label>
+                <input id="fuel_efficiency" type="number" placeholder="0.0" required onblur="calculateRoute()"/>
               </div>
 
               <div class="small-3 columns">
-                <label>Oil Price (Php)</label>
-                <input id="oil_price" type="number" placeholder="0.0" onblur="calculateRoute()"/>
+                <label>Oil Price (Php) <small>required</small></label>
+                <input id="oil_price" type="number" placeholder="0.0" required onblur="calculateRoute()"/>
               </div>
 
               <div class="small-3 columns">
@@ -159,18 +159,18 @@
 
             <div class="row">
               <div class="small-3 columns">
-                <label>Toll Fee (Php)</label>
-                <input id="toll_fee" type="number" placeholder="0.0" onblur="calculateRentCost()"/>
+                <label>Toll Fee (Php) <small>required</small></label>
+                <input id="toll_fee" type="number" placeholder="0.0" required onblur="calculateRentCost()"/>
               </div>
 
               <div class="small-3 columns">
-                <label>Driver's Fee (Php)</label>
-                <input id="driver_fee" type="number" placeholder="0.0" onblur="calculateRentCost()"/>
+                <label>Driver's Fee (Php) <small>required</small></label>
+                <input id="driver_fee" type="number" placeholder="0.0" required onblur="calculateRentCost()"/>
               </div>
 
               <div class="small-3 columns">
-                <label>Owner's Fee (Php)</label>
-                <input id="owner_fee" type="number" placeholder="0.0" onblur="calculateRentCost()"/>
+                <label>Owner's Fee (Php) <small>required</small></label>
+                <input id="owner_fee" type="number" placeholder="0.0" required onblur="calculateRentCost()"/>
               </div>
 
               <div class="small-3 columns">
